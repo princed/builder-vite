@@ -6,7 +6,7 @@ import { TypescriptConfig } from '@storybook/core-common';
 import { mockCoreJs } from './mock-core-js';
 import { codeGeneratorPlugin } from './code-generator-plugin';
 import { injectExportOrderPlugin } from './inject-export-order-plugin';
-import { mdxPlugin } from './mdx-plugin';
+import { mdxPlugin } from './plugins/mdx-plugin';
 import { noFouc } from './plugins/no-fouc';
 import { sourceLoaderPlugin } from './source-loader-plugin';
 
@@ -58,7 +58,7 @@ export async function pluginConfig(options: ExtendedOptions, _type: PluginConfig
     codeGeneratorPlugin(options),
     mockCoreJs(),
     sourceLoaderPlugin(options),
-    mdxPlugin(),
+    mdxPlugin(options),
     noFouc(),
     injectExportOrderPlugin,
   ] as Plugin[];
