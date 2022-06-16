@@ -9311,7 +9311,7 @@ __metadata:
     npm-run-all: ^4.1.5
     rollup-plugin-postcss-lit: ^2.0.0
     sass: ^1.50.1
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     wait-on: ^6.0.1
   languageName: unknown
   linkType: soft
@@ -9332,7 +9332,7 @@ __metadata:
     npm-run-all: ^4.1.5
     react: ^18.0.0
     react-dom: ^18.0.0
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     wait-on: ^6.0.1
   languageName: unknown
   linkType: soft
@@ -9355,7 +9355,7 @@ __metadata:
     react-dom: ^16.4.14
     ts-node: ^10.7.0
     typescript: ^4.5.4
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     wait-on: ^6.0.1
   languageName: unknown
   linkType: soft
@@ -9376,7 +9376,7 @@ __metadata:
     npm-run-all: ^4.1.5
     react: ^16.4.14
     react-dom: ^16.4.14
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     wait-on: ^6.0.1
   languageName: unknown
   linkType: soft
@@ -9400,7 +9400,7 @@ __metadata:
     svelte: ^3.46.4
     svelte-preprocess: ^4.10.4
     typescript: ^4.5.5
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     wait-on: ^6.0.1
   languageName: unknown
   linkType: soft
@@ -9418,7 +9418,7 @@ __metadata:
     http-server: ^14.1.0
     jest: ^27.5.1
     npm-run-all: ^4.1.5
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
     vue: ^3.2.25
     wait-on: ^6.0.1
   languageName: unknown
@@ -9435,7 +9435,7 @@ __metadata:
     "@storybook/react": ^6.5.0
     react: ^16.4.14
     react-dom: ^16.4.14
-    vite: 3.0.0-alpha.11
+    vite: ^3.0.0-alpha.12
   languageName: unknown
   linkType: soft
 
@@ -18888,9 +18888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.0.0-alpha.11":
-  version: 3.0.0-alpha.11
-  resolution: "vite@npm:3.0.0-alpha.11"
+"vite@npm:^3.0.0-alpha.12":
+  version: 3.0.0-alpha.12
+  resolution: "vite@npm:3.0.0-alpha.12"
   dependencies:
     esbuild: ^0.14.43
     fsevents: ~2.3.2
@@ -18916,7 +18916,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: b6fa98bbfd591b10b44dd6226c37d6436f848c6359bf708fccda9a8fa6c92305c24b90b03c5b727245595c3e59e5576185773a913448abae1f5bace889afb505
+  checksum: bdca8f599b72c0c6b234ce1e57c9a0036124beb4f7d3b2c489ddbb2495438d7dc96e6a641515bd1eb1bd4039d2a3618331b165892b60d5339119a0db44b5ebc9
   languageName: node
   linkType: hard
 
